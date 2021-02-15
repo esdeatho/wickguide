@@ -1,0 +1,23 @@
+{
+  "name": "wickguide",
+  "version": "2.0.0",
+  "description": "bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "es",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "request": "^2.88.0"
+  },
+  "engines": {
+    "node": "14.15.4",
+    "npm": "*"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "license": "ISC"
+}

@@ -4,6 +4,7 @@ module.exports = {
     name: 'webhook', 
     description: 'Webhook',
     args: false, 
+    aliases: ['web'],
     usage: '', 
     execute(message, args) {
 

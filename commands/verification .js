@@ -4,6 +4,7 @@ module.exports = {
     name: 'verification', // The name of the command
     description: 'Verification', // The description of the command (for help text)
     args: false, // Specified that this command doesn't need any data other than the command
+    aliases: ['v','verify'],
     usage: '', // Help text to explain how to use the command (if it had any arguments)
     execute(message, args) {
 

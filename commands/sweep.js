@@ -4,6 +4,7 @@ module.exports = {
     name: 'sweep', // The name of the command
     description: 'Server Sweep', // The description of the command (for help text)
     args: false, // Specified that this command doesn't need any data other than the command
+    aliases: ['scan'],
     usage: '', // Help text to explain how to use the command (if it had any arguments)
   
     execute(message, args) {

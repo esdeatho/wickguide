@@ -3,9 +3,54 @@ const Discord = require('discord.js');
 module.exports = {
     name: 'permits', // The name of the command
     description: 'Permits', // The description of the command (for help text)
+    aliases:['Permit','permits','level','levels','p'],
     args: false, // Specified that this command doesn't need any data other than the command
     usage: '', // Help text to explain how to use the command (if it had any arguments)
     execute(message, args) {
+
+        if (args[0] == "?t") {
+            // parameters 
+            if (args[1] == "eo") {
+            message.channel.send({
+                embed: {
+                    color:'#36393f',
+                  //  title:'Server Owner and Extra Owners',
+                    description:'<:danger:809528345981222943> **[5]** **Server Owner and Extra Owners** \n \n  <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> To add an extra owner, do `w!s extraOwner ?add 11` where `extraOwner` is the `actual username of the user` you want to add **extra owners are immune to wick** \n  <:blank:809168046052474881> <:rightsmall:809587446182445086> **Ex.** if a user is named `fnAki` use the command `w!s fnaki ?add 11`'
+                }
+            })  
+        }
+            if (args[1] == "ta") {
+                message.channel.send({
+                    embed: {
+                        color:'#36393f',
+                      //  title:'Server Owner and Extra Owners',
+                        description:'<:danger:809528345981222943> **[4]** **Trusted Admin** \n \n  <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> To add an trusted admins, do `w!s trustedAdmin ?add 10` where `trsutedAdmin` is the `actual username of the user` you want to add **trusted adminss are immune to wick** \n  <:blank:809168046052474881> <:rightsmall:809587446182445086> **Ex.** if a user is named `fnAki` use the command `w!s fnaki ?add 10`'
+                    }
+            })
+            }
+
+            if (args[1] == "admin") { 
+                message.channel.send({
+                    embed: {
+                        color:'#36393f',
+                      //  title:'Server Owner and Extra Owners', AOO   fd 
+                        description:'**[3]** **Admin** \n \n  <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Make a role for your admins and then do w!s AdminRole ?add 3 where `AdminRole` is the `actual name of the role` you made. **admins are immune to spam** \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> **Ex.** if a role called `admin` is the name of your admin role, use the command `w!s admins ?add 3` to set admins as a wick admin role \n <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Wick admins can `ban/mute/kick/warn/purge`'
+                    } 
+            }) 
+            }
+            if (args[1] == "mod") {
+                message.channel.send({
+                    embed: {
+                        color:'#36393f',
+                      //  title:'Server Owner and Extra Owners',
+                        description:'**[2]** **Mod** \n \n  <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Make a role for your mods and then do `w!s ModRole ?add 4` where `ModeratorRole` is the `actual name of the role` you made. **mods are immune to spam** \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> **Ex.** if a role called `mods` is the name of your moderator role, use the command `w!s mods ?add 4` to set Mods as a wick moderator role \n <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Wick admins can `kick/mute/warn`'
+                    }
+            })
+            }
+        
+        }
+
+
 
         const exampleEmbed = new Discord.MessageEmbed()
         .setColor('#36393f')
@@ -23,11 +68,14 @@ module.exports = {
             { name: '<:console:809527649889812551> Dashboard', value: 'you can also add your permits through the **[dashboard](https://wickbot.com/dashboard)**'},
 
         )
-        .setImage('https://i.imgur.com/AX3GY2E.png')
+        .setImage('https://i.imgur.com/AX3GY2E.png') 
         
  
+        if (!args[0]) message.channel.send(exampleEmbed);
+     //message.channel.send(exampleEmbed);
+
     
-    message.channel.send(exampleEmbed);
+    
 
     },
 };

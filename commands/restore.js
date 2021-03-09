@@ -15,7 +15,7 @@ module.exports = {
         .setURL('https://docs.wickbot.com/v3/commands/moderation/ban')
 
         .addFields(
-            { name: '<:rightSort:809165006477459507> Unquarantine', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> To get someone out of quarantine use the command `w!r @user` where `@user` is the actual user \n <:blank:809168046052474881> <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> **Ex.** w!r <@737913175697129582>' },
+            { name: '<:rightSort:809165006477459507> Unquarantine', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> To get someone out of quarantine use the command `w!r @user` where `@user` is the actual user \n<:blank:809168046052474881> <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> **Ex.** w!r <@737913175697129582>' },
 
         )
         

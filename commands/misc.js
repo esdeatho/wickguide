@@ -55,7 +55,7 @@ module.exports = {
                     color: '#36393f',
                     fields:[ 
                    
-                        {name:'<:rightSort:809165006477459507> Prefix', value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!misc X ?set 1` \n <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is your new prefix'}
+                        {name:'<:rightSort:809165006477459507> Prefix', value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!misc X ?set 1` \n<:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is your new prefix'}
                               
                     ],
                     footer: {text:'Page: 1/4'}
@@ -76,10 +76,10 @@ module.exports = {
                     title: 'Mod Misc',
                     color: '#36393f',
                     fields:[
-                        {name:'<:rightSort:809165006477459507> Confirm Actions', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!misc 2a ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!misc 2a ?off` '},
-                        {name:'<:rightSort:809165006477459507> Days Purged on Bans ', value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!misc X ?set 2b` \n <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is `0d > X > 14d`'},
-                        {name:'<:rightSort:809165006477459507> Default Mute Duration',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!misc X ?set 2c` \n <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is the amount of time you want '},
-                        {name:'<:rightSort:809165006477459507> Remove Main Roles on Mute', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!misc 2d ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!misc 2d ?off`'}
+                        {name:'<:rightSort:809165006477459507> Confirm Actions', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!misc 2a ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!misc 2a ?off` '},
+                        {name:'<:rightSort:809165006477459507> Days Purged on Bans ', value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!misc X ?set 2b` \n<:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is `0d > X > 14d`'},
+                        {name:'<:rightSort:809165006477459507> Default Mute Duration',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!misc X ?set 2c` \n<:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is the amount of time you want '},
+                        {name:'<:rightSort:809165006477459507> Remove Main Roles on Mute', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!misc 2d ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!misc 2d ?off`'}
                     ],
                     footer: {text:'Page: 2/4'}
                     
@@ -97,9 +97,9 @@ module.exports = {
                 title: 'Warn Settings',
                 color: '#36393f',
                 fields:[
-                    {name:'<:rightSort:809165006477459507> Status', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!misc 3a ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!misc 3a ?off` '},
-                    {name:'<:rightSort:809165006477459507> Action', value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!misc X ?set 3b` \n <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is `mute/kick/ban`'},
-                    {name:'<:rightSort:809165006477459507> Max warns',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!misc X ?set 3c` \n <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is the amount of warns you want before wick takes action '},
+                    {name:'<:rightSort:809165006477459507> Status', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!misc 3a ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!misc 3a ?off` '},
+                    {name:'<:rightSort:809165006477459507> Action', value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!misc X ?set 3b` \n<:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is `mute/kick/ban`'},
+                    {name:'<:rightSort:809165006477459507> Max warns',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!misc X ?set 3c` \n<:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is the amount of warns you want before wick takes action '},
                 ],
                 footer: {text:'Page: 3/4'}
                 
@@ -117,9 +117,9 @@ module.exports = {
                 title: 'Misc',
                 color: '#36393f',
                 fields:[
-                    {name:'<:rightSort:809165006477459507> Compact Outputs', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!misc 4a ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!misc 4a ?off` '},
-                    {name:'<:rightSort:809165006477459507> Delete Informing Messages', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!misc 5a ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!misc 5a ?off` '},
-                    {name:'<:rightSort:809165006477459507> Enforce Wick Roles', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!misc 6a ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!misc 6a ?off` '}
+                    {name:'<:rightSort:809165006477459507> Compact Outputs', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!misc 4a ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!misc 4a ?off` '},
+                    {name:'<:rightSort:809165006477459507> Delete Informing Messages', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!misc 5a ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!misc 5a ?off` '},
+                    {name:'<:rightSort:809165006477459507> Enforce Wick Roles', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!misc 6a ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!misc 6a ?off` '}
 
                 ],
                 footer: {text:'Page: 4/4'}

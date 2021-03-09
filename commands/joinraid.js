@@ -30,8 +30,8 @@ module.exports = {
                     title: 'Joinraid',
                     color: '#36393f',
                   fields: [
-                      {name: '<:premium:809589966153711707> <:joinraid:816722693230559304> Status' , value: '<:blank:809168046052474881> <:check:809847958878552164> On `w!joinraid 1 ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!joinraid 1 ?off`'},
-                      {name: '<:ban:810254366203314268> Action', value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!joinraid X ?set 2` \n  <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is `mute/kick/ban` '}
+                      {name: '<:premium:809589966153711707> <:joinraid:816722693230559304> Status' , value: '<:blank:809168046052474881> <:check:809847958878552164> On `w!joinraid 1 ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!joinraid 1 ?off`'},
+                      {name: '<:ban:810254366203314268> Action', value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!joinraid X ?set 2` \n<:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is `mute/kick/ban` '}
                   ],
                   footer: {text:'Page: 1/2'}
                 }),
@@ -51,11 +51,11 @@ module.exports = {
                     title: 'Details',
                     color: '#36393f',
                   fields: [
-                      {name:'<:rightSort:809165006477459507> Minimum Trigger',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!joinraid X ?set 3a`\n <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is `2 < X < 500`'},
-                      {name:'<:rightSort:809165006477459507> Join History',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!joinraid X ?set 3b`\n <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is `30s < X < 1h` in in 1s, 1m or 1h format'},
-                      {name:'<:rightSort:809165006477459507> Target', value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Suspicious `w!joinraid suspicious ?set 3c` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> All `w!joinraid all ?set 3c`'},
-                      {name: '<:rightSort:809165006477459507> DM Members:', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!joinraid 3d ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!joinraid 3d ?off`'},
-                      {name: '<:rightSort:809165006477459507> Monitor Invites', value: '<:blank:809168046052474881> <:check:809847958878552164> On `w!joinraid 3e ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!joinraid 3e ?off`'}
+                      {name:'<:rightSort:809165006477459507> Minimum Trigger',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!joinraid X ?set 3a`\n<:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is `2 < X < 500`'},
+                      {name:'<:rightSort:809165006477459507> Join History',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!joinraid X ?set 3b`\n<:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is `30s < X < 1h` in in 1s, 1m or 1h format'},
+                      {name:'<:rightSort:809165006477459507> Target', value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Suspicious `w!joinraid suspicious ?set 3c` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> All `w!joinraid all ?set 3c`'},
+                      {name: '<:rightSort:809165006477459507> DM Members:', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!joinraid 3d ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!joinraid 3d ?off`'},
+                      {name: '<:rightSort:809165006477459507> Monitor Invites', value: '<:blank:809168046052474881> <:check:809847958878552164> On `w!joinraid 3e ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!joinraid 3e ?off`'}
                   ],
                   footer: {text:'Page: 2/2'}
                 }),

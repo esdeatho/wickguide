@@ -16,7 +16,7 @@ module.exports = {
         //.setURL('https://docs.wickbot.com/v3/commands/moderation/ban')
 
         .addFields(
-            { name: '<:rightSort:809165006477459507> Open Source', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> The bot will **never** be open source \n  <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Head over to this [page](https://wickbot.com/premium) to see some of our supporters' },
+            { name: '<:rightSort:809165006477459507> Open Source', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> The bot will **never** be open source \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Head over to this [page](https://wickbot.com/premium) to see some of our supporters' },
         )
         .setImage('https://media.discordapp.net/attachments/753161435520958477/811339976011939850/unknown.png?width=1440&height=543')
       //  .setFooter('you wont be able to host it regardless')

@@ -16,7 +16,7 @@ module.exports = {
       //  .setURL('https://docs.wickbot.com/v3/commands/moderation/ban')
 
         .addFields(
-            { name: '<:rightSort:809165006477459507> Permits', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> You are not the **physical owner** of the server *(the person with the crown <:owner:809530582714941520>)* \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> ask the physical owner to give you **Extra Owner** permits by using the command `w!s @user ?add 11`' },
+            { name: '<:rightSort:809165006477459507> Permits', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> You are not the **physical owner** of the server *(the person with the crown <:owner:809530582714941520>)* \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> ask the physical owner to give you **Extra Owner** permits by using the command `w!s @user ?add 11`' },
 
         )
         

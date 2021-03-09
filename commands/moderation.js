@@ -19,7 +19,7 @@ module.exports = {
                     color:'#36393f',
                     title:'Ban',
                     fields: [
-                        {name:'<:rightSort:809165006477459507> Parameters',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?t` time \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` reason \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?h` ban users that are not in your server \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?dm` dm the member(s) you want to ban with a briefing on why they got banned \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?soft` ban the member then instantly unban'},
+                        {name:'<:rightSort:809165006477459507> Parameters',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?t` time \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` reason \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?h` ban users that are not in your server \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?dm` dm the member(s) you want to ban with a briefing on why they got banned \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?soft` ban the member then instantly unban'},
                         {name:'<:rightSort:809165006477459507> Example' , value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!b @icey ?r cute ?dm ?soft` '}
                     ]
                 }
@@ -31,7 +31,7 @@ module.exports = {
                         color:'#36393f',
                         title:'Kick',
                         fields: [
-                            {name:'<:rightSort:809165006477459507> Parameters',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` reason \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?dm` dm the member(s) you want to kick with a briefing on why they got kicked'},
+                            {name:'<:rightSort:809165006477459507> Parameters',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` reason \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?dm` dm the member(s) you want to kick with a briefing on why they got kicked'},
                             {name:'<:rightSort:809165006477459507> Example' , value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!k @icey ?r cute ?dm`'}
                         ]
                     }
@@ -43,7 +43,7 @@ module.exports = {
                             color:'#36393f',
                             title:'Mute',
                             fields: [
-                                {name:'<:rightSort:809165006477459507> Parameters',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?t` time \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` reason \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?h` mute users that are not in your server \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?dm` dm the member(s) you want to mute with a briefing on why they got muted'},
+                                {name:'<:rightSort:809165006477459507> Parameters',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?t` time \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` reason \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?h` mute users that are not in your server \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?dm` dm the member(s) you want to mute with a briefing on why they got muted'},
                                 {name:'<:rightSort:809165006477459507> Example' , value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!m @icey ?r cute ?dm`'}
                             ]
                         }
@@ -55,7 +55,7 @@ module.exports = {
                                 color:'#36393f',
                                 title:'Purge',
                                 fields: [
-                                    {name:'<:rightSort:809165006477459507> Parameters',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `suspicious / s` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `bots / b` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `users / u` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `webhooks / w` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `noavatar / na` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `norole / nr` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `embeds / e` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `discord / system` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `links / l` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `files / imgs / i / attachments` '},
+                                    {name:'<:rightSort:809165006477459507> Parameters',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `suspicious / s` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `bots / b` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `users / u` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `webhooks / w` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `noavatar / na` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `norole / nr` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `embeds / e` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `discord / system` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `links / l` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `files / imgs / i / attachments` '},
                                     {name:'<:purge:812024610363146270> Format',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!purge <types> <parameters>`'},
                                     {name:'<:rightSort:809165006477459507> Example' , value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!purge 10 ?t bots`'}
                                 ]
@@ -79,9 +79,9 @@ module.exports = {
                                         color:'#36393f',
                                         title:'Warn',
                                         fields: [
-                                            {name:'<:rightSort:809165006477459507> Parameters' , value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` \n <:rightSort:809165006477459507>'},
+                                            {name:'<:rightSort:809165006477459507> Parameters' , value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` \n<:rightSort:809165006477459507>'},
                                             {name:'<:rightSort:809165006477459507> Example ',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427>  `w!warn @user ?r cute`'},
-                                            { name: '<:warn:812019922435440670> Clear Warn', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!cases (case ID) ?e ?off` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `case ID` can be found in the modlogs. \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> You can also find a specific user\'s WARN case ID by asking wick directly \n  <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> `w!cases @user ?t warns`' },
+                                            { name: '<:warn:812019922435440670> Clear Warn', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!cases (case ID) ?e ?off` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `case ID` can be found in the modlogs. \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> You can also find a specific user\'s WARN case ID by asking wick directly \n<:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> `w!cases @user ?t warns`' },
 
                                         ]
                                     }
@@ -93,7 +93,7 @@ module.exports = {
                                             color:'#36393f',
                                             title:'Unban',
                                             fields: [
-                                                {name:'<:rightSort:809165006477459507> Parameters' , value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` \n <:rightSort:809165006477459507>'},
+                                                {name:'<:rightSort:809165006477459507> Parameters' , value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` \n<:rightSort:809165006477459507>'},
                                                 {name:'<:rightSort:809165006477459507> Example ',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427>  `w!unban user ?r cute`'},
     
                                             ]
@@ -106,7 +106,7 @@ module.exports = {
                                                 color:'#36393f',
                                                 title:'Unmute',
                                                 fields: [
-                                                    {name:'<:rightSort:809165006477459507> Parameters' , value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` \n <:rightSort:809165006477459507>'},
+                                                    {name:'<:rightSort:809165006477459507> Parameters' , value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` \n<:rightSort:809165006477459507>'},
                                                     {name:'<:rightSort:809165006477459507> Example ',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427>  `w!unmute user ?r cute`'},
         
                                                 ]
@@ -134,7 +134,7 @@ module.exports = {
                 content: new MessageEmbed({
                     title: 'Moderation',
                     color: '#36393f',
-                    description:'<:ban:810254366203314268> [**Ban**](https://docs.wickbot.com/v3/commands/moderation/ban) \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!ban @user`\n <:kick:817089443470770206> [**Kick**](https://docs.wickbot.com/v3/commands/moderation/kick) \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!kick @user` \n <:Mute:817089217016496168>  [**Mute**](https://docs.wickbot.com/v3/commands/moderation/mute) \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!mute @user` \n <:delete:818584313837649930> [**Purge**](https://docs.wickbot.com/v3/commands/moderation/purge) \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!purge 100` \n <:rightSort:809165006477459507> [**Cases**](https://docs.wickbot.com/v3/commands/moderation/cases) \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!cases` \n <:rightSort:809165006477459507> [**Warn**](https://docs.wickbot.com/v3/commands/moderation/warn) \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!warn @user` \n <:rightSort:809165006477459507> [**Unban**](https://docs.wickbot.com/v3/commands/moderation/unban) \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!unban user-id` \n <:rightSort:809165006477459507> [**Unmute**](https://docs.wickbot.com/v3/commands/moderation/unmute) \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!unmute user-id`   ',
+                    description:'<:ban:810254366203314268> [**Ban**](https://docs.wickbot.com/v3/commands/moderation/ban) \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!ban @user`\n<:kick:817089443470770206> [**Kick**](https://docs.wickbot.com/v3/commands/moderation/kick) \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!kick @user` \n<:Mute:817089217016496168>  [**Mute**](https://docs.wickbot.com/v3/commands/moderation/mute) \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!mute @user` \n<:delete:818584313837649930> [**Purge**](https://docs.wickbot.com/v3/commands/moderation/purge) \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!purge 100` \n<:rightSort:809165006477459507> [**Cases**](https://docs.wickbot.com/v3/commands/moderation/cases) \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!cases` \n<:rightSort:809165006477459507> [**Warn**](https://docs.wickbot.com/v3/commands/moderation/warn) \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!warn @user` \n<:rightSort:809165006477459507> [**Unban**](https://docs.wickbot.com/v3/commands/moderation/unban) \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!unban user-id` \n<:rightSort:809165006477459507> [**Unmute**](https://docs.wickbot.com/v3/commands/moderation/unmute) \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!unmute user-id`   ',
                      fields:[
                        {name:'<:alarm:809533151277613077> Notice', value:'<:blank:809168046052474881> <:rightSort:809165006477459507> These are just basic commands just to show you some **basic** wick moderation commands. It is **highly** suggested that you read the docs to get the full experience of Wick\'s moderation'}
                     ],
@@ -156,7 +156,7 @@ module.exports = {
                     title: 'Ban',
                     color: '#36393f',
                     fields:[
-                        { name: '<:rightSort:809165006477459507> Parameters', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?t` time \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` reason \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?h` ban users that are not in your server \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?dm` dm the member(s) you want to ban with a briefing on why they got banned \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?soft` ban the member then instantly unban \n <:rightSort:809165006477459507>  **Example** \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!b @icey ?r cute ?dm ?soft` ' },
+                        { name: '<:rightSort:809165006477459507> Parameters', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?t` time \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` reason \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?h` ban users that are not in your server \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?dm` dm the member(s) you want to ban with a briefing on why they got banned \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?soft` ban the member then instantly unban \n<:rightSort:809165006477459507>  **Example** \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!b @icey ?r cute ?dm ?soft` ' },
                     ],
                     footer: {text:'Page: 2/9'}
                 }),
@@ -173,7 +173,7 @@ module.exports = {
                 title: 'Kick',
                 color: '#36393f',
                 fields:[
-                    { name: '<:rightSort:809165006477459507> Parameters', value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` reason \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?dm` dm the member(s) you want to kick with a briefing on why they got kicked \n <:rightSort:809165006477459507>  **Example** \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!k @icey ?r cute ?dm` ' },
+                    { name: '<:rightSort:809165006477459507> Parameters', value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` reason \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?dm` dm the member(s) you want to kick with a briefing on why they got kicked \n<:rightSort:809165006477459507>  **Example** \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!k @icey ?r cute ?dm` ' },
                 ],
                 footer: {text:'Page: 3/9'}
             }),
@@ -191,7 +191,7 @@ module.exports = {
                 title: 'Mute',
                 color: '#36393f',
                 fields:[
-                    { name: '<:rightSort:809165006477459507> Parameters', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?t` time \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` reason \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?h` mute users that are not in your server \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?dm` dm the member(s) you want to mute with a briefing on why they got muted \n <:rightSort:809165006477459507>  **Example** \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!m @icey ?r cute ?dm` ' },
+                    { name: '<:rightSort:809165006477459507> Parameters', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?t` time \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` reason \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?h` mute users that are not in your server \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?dm` dm the member(s) you want to mute with a briefing on why they got muted \n<:rightSort:809165006477459507>  **Example** \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!m @icey ?r cute ?dm` ' },
                 ],
                 footer: {text:'Page: 4/9'}
             }),
@@ -208,8 +208,8 @@ module.exports = {
                 title: 'Purge',
                 color: '#36393f',
                 fields:[
-                    { name: '<:rightSort:809165006477459507> Types', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `suspicious / s` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `bots / b` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `users / u` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `webhooks / w` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `noavatar / na` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `norole / nr` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `embeds / e` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `discord / system` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `links / l` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `files / imgs / i / attachments` ' },
-                    {name: '<:purge:812024610363146270> Format' , value : '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!purge <types> <parameters>` \n <:rightSort:809165006477459507> **Example** \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!purge 10 ?t bots` '},
+                    { name: '<:rightSort:809165006477459507> Types', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `suspicious / s` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `bots / b` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `users / u` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `webhooks / w` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `noavatar / na` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `norole / nr` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `embeds / e` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `discord / system` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `links / l` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `files / imgs / i / attachments` ' },
+                    {name: '<:purge:812024610363146270> Format' , value : '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!purge <types> <parameters>` \n<:rightSort:809165006477459507> **Example** \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!purge 10 ?t bots` '},
                 ],
                 footer: {text:'Page: 5/9'}
             }),
@@ -243,8 +243,8 @@ module.exports = {
                 title: 'Warn',
                 color: '#36393f',
                 fields:[
-                    { name: '<:rightSort:809165006477459507> Parameters', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` \n <:rightSort:809165006477459507>  **Example** \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427>  `w!warn @user ?r cute`' },
-                    { name: '<:warn:812019922435440670> Clear Warn', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!cases (case ID) ?e ?off` \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `case ID` can be found in the modlogs. \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> You can also find a specific user\'s WARN case ID by asking wick directly \n  <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> `w!cases @user ?t warns`' },
+                    { name: '<:rightSort:809165006477459507> Parameters', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` \n<:rightSort:809165006477459507>  **Example** \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427>  `w!warn @user ?r cute`' },
+                    { name: '<:warn:812019922435440670> Clear Warn', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!cases (case ID) ?e ?off` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `case ID` can be found in the modlogs. \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> You can also find a specific user\'s WARN case ID by asking wick directly \n<:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> `w!cases @user ?t warns`' },
                 ],
                 footer: {text:'Page: 7/9'}
             }),
@@ -261,7 +261,7 @@ module.exports = {
                 title: 'Unban',
                 color: '#36393f',
                 fields:[
-                   {name:'<:rightSort:809165006477459507> Parameters',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` \n <:rightSort:809165006477459507>  **Example** \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427>  `w!unban user ?r cute`'}
+                   {name:'<:rightSort:809165006477459507> Parameters',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` \n<:rightSort:809165006477459507>  **Example** \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427>  `w!unban user ?r cute`'}
                 ],
                 footer: {text:'Page: 8/9'}
             }),
@@ -278,7 +278,7 @@ module.exports = {
                 title: 'Unmute',
                 color: '#36393f',
                 fields:[
-                    {name:'<:rightSort:809165006477459507> Parameters',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` \n <:rightSort:809165006477459507>  **Example** \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427>  `w!unmute user ?r cute`'}
+                    {name:'<:rightSort:809165006477459507> Parameters',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` \n<:rightSort:809165006477459507>  **Example** \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427>  `w!unmute user ?r cute`'}
                 ],
                 footer: {text:'Page: 9/9'}
             }),

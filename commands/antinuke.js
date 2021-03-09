@@ -30,8 +30,8 @@ module.exports = {
                     title: 'AntiNuke',
                     color: '#36393f',
                    fields:[
-                       {name:'<:rightSort:809165006477459507> Status',value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 1 ?on` \n <:blank:809168046052474881> <:danger:809528345981222943> Off ~~`w!antiuke 1 ?off`~~'},
-                       {name:'<:premium:809589966153711707> Panic Mode', value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!anpanic` \n <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Use `!anpanic` to learn more '},
+                       {name:'<:rightSort:809165006477459507> Status',value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 1 ?on` \n<:blank:809168046052474881> <:danger:809528345981222943> Off ~~`w!antiuke 1 ?off`~~'},
+                       {name:'<:premium:809589966153711707> Panic Mode', value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!anpanic` \n<:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Use `!anpanic` to learn more '},
                     //    {name:'<:premium:809589966153711707> Imaging (Backups) ',value:''}
 
                    ],
@@ -53,10 +53,10 @@ module.exports = {
                     title: 'Imaging (Backups)',
                     color: '#36393f',
                     fields:[
-                        {name:'<:rightSort:809165006477459507> <:premium:809589966153711707> Status',value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 3a ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!antinuke 3a ?off`'},
+                        {name:'<:rightSort:809165006477459507> <:premium:809589966153711707> Status',value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 3a ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!antinuke 3a ?off`'},
                         {name:'<:blank:809168046052474881> <:premium:809589966153711707> Max Images',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Max images are locked at `10`'},
                         {name:'<:blank:809168046052474881> <:premium:809589966153711707> Interval',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Intervals are locked at every `3h`'},
-                        {name:'<:premium:809589966153711707> Prune Detection',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> **Status** \n <:blank:809168046052474881> <:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 4a ?on` \n <:blank:809168046052474881> <:blank:809168046052474881> <:fail:809847979368120470> Off `w!antinuke 4a ?off`'},
+                        {name:'<:premium:809589966153711707> Prune Detection',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> **Status** \n<:blank:809168046052474881> <:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 4a ?on` \n<:blank:809168046052474881> <:blank:809168046052474881> <:fail:809847979368120470> Off `w!antinuke 4a ?off`'},
 
 
                      
@@ -78,10 +78,10 @@ module.exports = {
                     title: 'Quarantine Hold',
                     color: '#36393f',
                     fields:[
-                        {name:'<:rightSort:809165006477459507> Status',value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 5a ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!antinuke 5a ?off`'},
-                        {name:'<:blank:809168046052474881> <:premium:809589966153711707> Strict Mode',value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 5b ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!antinuke 5b ?off`'},
-                         {name:'<:blank:809168046052474881> <:rightSort:809165006477459507> Monitor Public Roles', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 5c ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!antinuke 5c ?off`'},
-                         {name:'<:rightSort:809165006477459507> Automatic Unique-Bots Whitelist (SOON)',value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 6 ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!antinuke 6 ?off`'}
+                        {name:'<:rightSort:809165006477459507> Status',value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 5a ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!antinuke 5a ?off`'},
+                        {name:'<:blank:809168046052474881> <:premium:809589966153711707> Strict Mode',value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 5b ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!antinuke 5b ?off`'},
+                         {name:'<:blank:809168046052474881> <:rightSort:809165006477459507> Monitor Public Roles', value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 5c ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!antinuke 5c ?off`'},
+                         {name:'<:rightSort:809165006477459507> Automatic Unique-Bots Whitelist (SOON)',value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!antinuke 6 ?on` \n<:blank:809168046052474881> <:fail:809847979368120470> Off `w!antinuke 6 ?off`'}
                     ],
                     footer: {text:'Page: 3/3'}
                 }),

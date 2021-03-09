@@ -14,7 +14,7 @@ module.exports = {
         .setURL('https://support.discord.com/hc/en-us/requests/new')
 
         .addFields(
-            { name: '<:owner:809530582714941520> Ownership', value: 'You can request the transfer of the ownership by e-mailing `support@discordapp.com` explaining your issue and adding the following details: \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Server Name \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Server ID \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Inactive owner\'s Discord Tag \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Inactive owner\'s User ID \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> New owner\'s Discord Tag \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> New owner\'s User ID' },
+            { name: '<:owner:809530582714941520> Ownership', value: 'You can request the transfer of the ownership by e-mailing `support@discordapp.com` explaining your issue and adding the following details: \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Server Name \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Server ID \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Inactive owner\'s Discord Tag \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> Inactive owner\'s User ID \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> New owner\'s Discord Tag \n <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> New owner\'s User ID' },
 
         )
         

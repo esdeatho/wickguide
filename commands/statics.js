@@ -7,7 +7,7 @@ const { Menu } = require('discord.js-menu');
 module.exports = {
     name: 'statics',
     description: 'statics',
-    aliases: ['st'],
+    aliases: ['st','static'],
     usage: '[command name]',
     cooldown: 5,
     execute(message, args) {

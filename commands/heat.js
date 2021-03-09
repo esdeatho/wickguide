@@ -38,7 +38,7 @@ module.exports = {
                        {name:'<:rightSort:809165006477459507> Webhook Coverage',value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!heat 6 ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!heat 6 ?off` \n <:blank:809168046052474881> <:blank:809168046052474881> <:danger:809528345981222943> Should always be on '},
 
                    ],
-                   footer:'Page: 1/3'
+                    footer:{text:'Page: 1/3'}
                 }),
                 reactions: {
                     '816377788516532275': 'main', 
@@ -64,7 +64,7 @@ module.exports = {
                         {name:'<:rightSort:809165006477459507> Reset Heat On Mute',value:'<:blank:809168046052474881> <:check:809847958878552164> On `w!heat 8 ?on` \n <:blank:809168046052474881> <:fail:809847979368120470> Off `w!heat 8 ?off`'},
                        //  {name:''}
                     ],
-                    footer:'Page: 2/3'
+                     footer:{text:'Page: 2/3'}
                 }),
                 reactions: {
                     /* You can use custom emotes by using their ID instead of an emoji. */
@@ -84,7 +84,7 @@ module.exports = {
                         {name:'<:premium:809589966153711707> Trigger',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!heat X ?set 9b`\n <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is the number of people you want before wick triggers heat panic mode'},
                          {name:'<:premium:809589966153711707> Panic Duration', value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!heat X ?set 9c`\n <:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> Where `X` is the amount of time you want panic mode to last for'}
                     ],
-                    footer:'Page: 3/3'
+                     footer:{text:'Page: 3/3'}
                 }),
                 reactions: {
                     /* You can use custom emotes by using their ID instead of an emoji. */

@@ -24,7 +24,7 @@ module.exports = {
     },
 };
 */ 
-
+/*
 //const Discord = require('discord.js');
 const { MessageEmbed } = require('discord.js');
 const { Menu } = require('discord.js-menu');
@@ -51,7 +51,7 @@ module.exports = {
                  * of pages, () => { functions }, or special destination names. See below for a list of these.
                  */
 
-                /* You can call pages whatever you like. The first in the array is always loaded first. */
+                /* You can call pages whatever you like. The first in the array is always loaded first. 
                 name: 'main',
                 content: new MessageEmbed({
                     title: 'Setup',
@@ -83,7 +83,7 @@ module.exports = {
                     footer: {text:'Page: 2/3'}
                 }),
                 reactions: {
-                    /* You can use custom emotes by using their ID instead of an emoji. */
+                    /* You can use custom emotes by using their ID instead of an emoji. 
                     '816377788516532275': 'main',
                     '809587446182445086': 'faq',
                     '809847979368120470': 'stop',
@@ -104,7 +104,7 @@ module.exports = {
                 footer: {text:'Page: 3/3'}
             }),
             reactions: {
-                /* You can use custom emotes by using their ID instead of an emoji. */
+                /* You can use custom emotes by using their ID instead of an emoji. 
                 '816377788516532275': 'setup',
                 '809587446182445086': 'faq',
                 '809847979368120470': 'stop',
@@ -113,7 +113,7 @@ module.exports = {
     ], 300000)
         /* Run Menu.start() when you're ready to send the menu in chat.
          * Once sent, the menu will automatically handle everything else.
-         */ 
+          
         helpMenu.start()
 
         /* The menu also has a singular event you can use for, well, whatever you like.
@@ -122,10 +122,10 @@ module.exports = {
          * It's your menu, man, do whatever.
          * 
          * The "destination" is the Page object it's about to change to.
-         */
+         
         //helpMenu.on('pageChange', destination => {
           //  destination.content.title = "Hey, " + message.author.username
         
     }
 };
-
+*/

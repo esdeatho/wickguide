@@ -107,7 +107,7 @@ module.exports = {
             name: 'dashboard',
             content: new MessageEmbed({
                 title: 'Joingate',
-                url:'https://wickbot.com/docs/setup#20_JoinGate',
+                url:'https://wickbot.com/docs/setup#20_JoinGate', 
                 color: '#36393f',
                 image:'https://media.discordapp.net/attachments/753161435520958477/816461718586261504/unknown.png',
               fields: [ 

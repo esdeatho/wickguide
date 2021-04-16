@@ -5,7 +5,7 @@ module.exports = {
     description: 'How to get someone out of quarantine', // The description of the command (for help text)
     args: false, // Specified that this command doesn't need any data other than the command
     usage: '', // Help text to explain how to use the command (if it had any arguments)
-    aliases: 'r,uq',
+    aliases: ['r','uq'],
     execute(message, args) {
 
         const exampleEmbed = new Discord.MessageEmbed()

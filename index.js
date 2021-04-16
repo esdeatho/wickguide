@@ -1,10 +1,13 @@
-require('dotenv').config(); 
+require('dotenv').config();
 const fs = require('fs');                               // Loads the Filesystem library
 const Discord = require('discord.js');                  // Loads the discord API library
 const { prefix, token } = require('./config.json');     // Loads the "token" and "prefix" values from the config file
 const { Client } = require('discord.js');
 const { Menu } = require('discord.js-menu');
 const { REFUSED } = require('dns');
+const db = require('quick.db')
+const moment = require('moment');
+const { description } = require('./commands/activate');
 const client = new Client(); // Initiates the client
 // const client = new Client({ ws: { intents: ['GUILDS', 'GUILD_MESSAGES'] } });
 client.commands = new Discord.Collection(); // Creates an empty list in the client object to store all commands
@@ -26,56 +29,59 @@ client.on('ready', () => {
 /**
  * This function controls how the bot reacts to messages it receives
  */
-client.on('message', message => {
+client.on('message', async message => {
     // Ignore bot messages and messages that dont start with the prefix defined in the config file
-    if(!message.content.startsWith(prefix) || message.author.bot) return; 
+    if (message.author.bot) return;
+
 
     // Split commands and arguments from message so they can be passed to functions
+    if (!message.content.startsWith(prefix)) return;
     const args = message.content.slice(prefix.length).split(/ +/);
     const commandName = args.shift().toLowerCase();
 
     // If the command isn't in the  command folder, move on
     const command = client.commands.get(commandName)
         || client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
-    if(!command) return;
+    if (!command) return;
 
-        // If the command requires arguments, make sure they're there.
-        if (command.args && !args.length) {
-            let reply = 'That command requires more details!';
+    // If the command requires arguments, make sure they're there.
+    if (command.args && !args.length) {
+        let reply = 'That command requires more details!';
 
-            // If we have details on how to use the args, provide them
-            if (command.usage) {
-                reply += `\nThe proper usage would be: \`${prefix}${command.name} ${command.usage}\``;
-            }
-
-            // Send a reply from the bot about any error encountered
-            return message.channel.send(reply);
+        // If we have details on how to use the args, provide them
+        if (command.usage) {
+            reply += `\nThe proper usage would be: \`${prefix}${command.name} ${command.usage}\``;
         }
+
+        // Send a reply from the bot about any error encountered
+        return message.channel.send(reply);
+    }
 
     /**
      * The following block of code handles "cooldowns" making sure that users can only use a command every so often.
      * This is helpful for commands that require loading time or computation, like image requests.
      */
-    if(!cooldowns.has(command.name)) {
+    /*
+    if (!cooldowns.has(command.name)) {
         cooldowns.set(command.name, new Discord.Collection());
     }
 
     const now = Date.now();
     const timestamps = cooldowns.get(command.name);
-    const cooldownAmount = (command.cooldown || 3 ) * 1000;
+    const cooldownAmount = (command.cooldown || 3) * 1000;
 
-    if(!timestamps.has(message.author.id)) {
+    if (!timestamps.has(message.author.id)) {
         timestamps.set(message.author.id, now);
         setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
     } else {
         const expirationTime = timestamps.get(message.author.id) + cooldownAmount;
 
-        if(now < expirationTime) {
+        if (now < expirationTime) {
             const timeLeft = (expirationTime - now) / 1000;
             return message.reply({
                 embed: {
-                    color:'#f2423c',
-                    description:`You're sending commands too fast! Please wait \`${timeLeft.toFixed(1)}\` more second(s) before running that command again!`,
+                    color: '#f2423c',
+                    description: `You're sending commands too fast! Please wait \`${timeLeft.toFixed(1)}\` more second(s) before running that command again!`,
 
                 }
             }); //(`Whoa! You're sending commands too fast! Please wait ${timeLeft.toFixed(1)} more second(s) before running \`${command.name}\` again!`);
@@ -88,15 +94,67 @@ client.on('message', message => {
      * End cooldown code
      */
 
+
     try {
         // Run the command
         command.execute(message, args);
-    } catch(error) {
+    } catch (error) {
         console.error(error);
-        message.reply('Seems like you broke the bot <:what:818569014812344360> try again or let support know');
+        message.reply({
+            embed: {
+                color:'#f2323c',
+                title:'Error 404',
+                description:'Seems like you broke the bot try again or let support know'
+            }
+        }); //('Seems like you broke the bot <:what:818569014812344360> try again or let support know');
+    }
+
+});
+client.on('message', async message => {
+    if (message.author.bot) return;
+
+    //  let myRole = message.guild.roles.cache.get("827761729286307870");
+    //if(message.member.roles.cache.has(myRole)) {
+
+    // afk command
+
+    let afk = new db.table("AFKs"),
+        authorStatus = await afk.fetch(message.author.id),
+        mentioned = message.mentions.members.first();
+
+        const wickQuotes = ["\"You Wanted Me Back...I’m Back!\"", "\"I’m Thinking I’m Back.\"", "\"How Good To See You Again So Soon, Mr. Wick.\""]
+const selectedWickquotes = Math.floor(Math.random() * wickQuotes.length)
+
+const wickImages = ["https://images-ext-2.discordapp.net/external/brUvAh-Zo93mVw_RCyp5COrurmnRrXRU1simLQuRXwc/https/media.discordapp.net/attachments/536277067805753355/536538038285762560/1.jpg", "https://images-ext-2.discordapp.net/external/Mj2lLqGOhzSHOeY9HQCbZOt7x0xJAYBVozztFc78Eyk/https/media.discordapp.net/attachments/536277067805753355/536538051996811315/5.jpg", "https://images-ext-2.discordapp.net/external/wuXpF0K2BfstoVbisG6rcH56KavMllY68eErUp-6Dxs/https/media.discordapp.net/attachments/536277067805753355/536538053901287424/6.jpg", "https://images-ext-1.discordapp.net/external/nZo9zRBZT0Kb5W-oDzkOiDhrTosv-u-uYMAaCrh_YXs/https/media.discordapp.net/attachments/536277067805753355/536538041221906434/2.jpg"]
+const selectedwickImages = Math.floor(Math.random() * wickImages.length)
+
+if (authorStatus) {
+const embed = new Discord.MessageEmbed()
+// .setColor('#36393f')
+.setColor(`${message.member.displayHexColor}`)
+.setTitle(wickQuotes[selectedWickquotes])
+.setFooter(`${message.member.displayName} is no longer afk`, 'https://cdn.discordapp.com/emojis/654399429293375508.png?v=1')
+.setImage(wickImages[selectedwickImages])
+message.channel.send(embed);
+afk.delete(message.author.id)
+}
+
+
+    if (mentioned) {
+        let status = await afk.fetch(mentioned.id);
+        const timestamp = await afk.fetch(mentioned.id);
+        const timeAgo = moment(db.get(`${mentioned.id}-afkSet`)).fromNow(true);
+
+        if (status) {
+            const embed = new Discord.MessageEmbed()
+                .setColor('#36393f')
+                .setTitle(`AFK`)
+                .setDescription(`<:owner:809530582714941520> **User:** \`${mentioned.user.tag}\`\n<:docs:818565890021785600> **Reason:** ${status}\n<:duration:824345758664097792> **Time:** \`${timeAgo}\``)
+            message.channel.send(embed);
+        }
     }
 
 });
 
 client.login();
-client.login(token); 
+client.login(token);

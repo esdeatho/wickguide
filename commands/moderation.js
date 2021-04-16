@@ -29,7 +29,7 @@ module.exports = {
                 message.channel.send({
                     embed: {
                         color:'#36393f',
-                        title:'Kick',
+                        title:'Kick', 
                         fields: [
                             {name:'<:rightSort:809165006477459507> Parameters',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` reason \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?dm` dm the member(s) you want to kick with a briefing on why they got kicked'},
                             {name:'<:rightSort:809165006477459507> Example' , value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!k @icey ?r cute ?dm`'}
@@ -79,7 +79,7 @@ module.exports = {
                                         color:'#36393f',
                                         title:'Warn',
                                         fields: [
-                                            {name:'<:rightSort:809165006477459507> Parameters' , value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r` \n<:rightSort:809165006477459507>'},
+                                            {name:'<:rightSort:809165006477459507> Parameters' , value: '<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `?r`'},
                                             {name:'<:rightSort:809165006477459507> Example ',value:'<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427>  `w!warn @user ?r cute`'},
                                             { name: '<:warn:812019922435440670> Clear Warn', value: ' <:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `w!cases (case ID) ?e ?off` \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> `case ID` can be found in the modlogs. \n<:blank:809168046052474881> <:rightDoubleArrow:809168332569575427> You can also find a specific user\'s WARN case ID by asking wick directly \n<:blank:809168046052474881> <:blank:809168046052474881> <:rightsmall:809587446182445086> `w!cases @user ?t warns`' },
 
